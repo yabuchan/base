@@ -56,3 +56,5 @@ LABEL org.label-schema.vcs-url="https://github.com/owncloud-docker/base.git"
 LABEL org.label-schema.name="ownCloud Base"
 LABEL org.label-schema.vendor="ownCloud GmbH"
 LABEL org.label-schema.schema-version="1.0"
+
+RUN sed -i -e 's/80/32180/g'
