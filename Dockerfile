@@ -3,8 +3,7 @@ MAINTAINER ownCloud DevOps <devops@owncloud.com>
 
 VOLUME ["/mnt/data"]
 
-EXPOSE 80
-EXPOSE 443
+EXPOSE 32180
 
 ENTRYPOINT ["/usr/local/bin/entrypoint"]
 CMD ["/usr/local/bin/owncloud"]
